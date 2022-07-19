@@ -84,3 +84,9 @@ ul {
   color: #aeccc6;
   margin: inherit;
 }
+
+.source {
+  text-align: center;
+  display: block;
+  text-decoration: none;
+}
