@@ -1,0 +1,86 @@
+body {
+  font-family: "Spline Sans Mono", monospace;
+  font-weight: bold;
+}
+
+button,
+form {
+  text-align: right;
+  display: block;
+  margin: 0, auto;
+}
+
+h1 {
+  text-align: right;
+  font-size: medium;
+}
+
+h2 {
+  text-align: left;
+  color: #2e80af;
+  font-weight: bold;
+  font-size: 2rem;
+  margin-bottom: 25;
+}
+
+h3 {
+  text-align: left;
+  color: #9ba6a5;
+  font-weight: bold;
+  font-size: 1.75rem;
+  margin: 0px, auto;
+}
+
+ul {
+  text-align: right;
+  list-style: none;
+  display: block;
+  font-size: 20px;
+  color: #9ba6a5;
+  margin: 0px 0px 0px 0px;
+  opacity: 50%;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px 20px;
+}
+
+.units,
+#temperature,
+#celsius-link,
+#fahrenheit-link {
+  text-align: right;
+  display: block;
+  font-size: 50px;
+  color: #9ba6a5;
+  margin: 0px 0px 0px 0px;
+  opacity: 50%;
+}
+.row {
+  --bs-gutter-x: 0.5rem;
+  --bs-gutter-y: 0;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.card {
+  --bs-card-spacer-y: 1rem;
+  --bs-card-spacer-x: 0rem;
+  --bs-card-title-spacer-y: 1.5rem;
+  --bs-card-border-width: 2px;
+}
+
+.card-title,
+.card-text {
+  text-align: center;
+  background-color: #d8f8f9;
+}
+
+.weather-icon {
+  text-align: center;
+  font-size: 100px;
+  color: #aeccc6;
+  margin: inherit;
+}
