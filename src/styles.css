@@ -3,11 +3,10 @@ body {
   font-weight: bold;
 }
 
-button,
 form {
   text-align: right;
   display: block;
-  margin: 0, auto;
+  margin: 0px 0px;
 }
 
 h1 {
@@ -45,6 +44,11 @@ ul {
   max-width: 600px;
   margin: 0 auto;
   padding: 20px 20px;
+}
+#current-location-button {
+  text-align: right;
+  --bs-btn-padding-x: 3.75rem;
+  margin-left: 10px;
 }
 
 .units,
